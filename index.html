@@ -9,6 +9,20 @@
     <link rel='stylesheet' href="main.css">
 </head>
 <body>
+    <div class="container">
+        <p>Please select a degree</p>
+            <input type="number" id="inputTemp" class="d-flex justify-content-center" name="degrees">
+            <input type="radio" id="celcius" class="d-flex justify-content-center" name="degrees" value="celcius" checked> Celcius<br>
+            <input type="radio" id="fahrenheit" class="d-flex justify-content-center" name="degrees" value="fahrenheit"> Fahrenheit<br>
 
+            <input type="submit" id="submitButton" class="d-flex justify-content-center" value="Submit">
+    </div>
+    <div>
+        <p  id="convertedTemp">
+
+        </p>
+    </div>
+
+    <script src="./main.js"></script>
 </body>
 </html>
